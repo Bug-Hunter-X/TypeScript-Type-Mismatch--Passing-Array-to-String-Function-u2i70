@@ -1,0 +1,1 @@
+This repository demonstrates a subtle type-related bug in TypeScript.  The `greeter` function expects a string argument, but an array is passed. The TypeScript compiler does not flag this as an error, leading to runtime issues.  The `bugSolution.ts` file provides a correction using type guards.
